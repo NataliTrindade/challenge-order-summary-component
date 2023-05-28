@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+:root {
+    --primary-color: #3829e0;
+    --secundary-color: #1f2f56;
+    --paragraph-color: #7280a7;   
+}
+

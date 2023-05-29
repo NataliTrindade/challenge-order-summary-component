@@ -140,21 +140,18 @@ a:hover {
 }
 
 @media screen and (min-width: 1024px) {
-  body {
-    background: url(../imgs/pattern-background-desktop.svg);
-    background-size: cover;
-  }
-
-  .main-content {
+ 
+ .main-content {
     width: 30vw;
-    height: 90vh;
+    height: auto;
   }
 
   .container-digital-signature {
     width: 90%;
   }
+
   .footer {
     position: absolute;
-    bottom: -2rem;
+    bottom: -15.0rem;
   }
 }

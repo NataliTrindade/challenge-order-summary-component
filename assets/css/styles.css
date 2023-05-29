@@ -61,7 +61,7 @@ a:hover {
     margin: 1.5rem;
     text-align: center;
     font-size: 2.0rem ;
-    font-weight: bolder;
+    font-weight: 900;
     color: var(--title-color);
 }
 
@@ -92,7 +92,7 @@ a:hover {
 
 .container-price {
     flex-direction: column;
-    height: max-content;
+    /* height: max-content; */
     font-size: 1.2rem;
 }
 
@@ -137,4 +137,20 @@ a:hover {
 
 .footer {
     font-size: 1.2rem;
+}
+
+@media screen and (min-width: 1024px) {
+
+    body {
+        background: url(../imgs/pattern-background-desktop.svg);
+    }
+
+    .main-content {
+        width: 30vw;
+        height: 90vh;
+    }
+
+    .container-digital-signature {
+        width: 90%;
+    }
 }

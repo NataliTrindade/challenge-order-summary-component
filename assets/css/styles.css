@@ -1,156 +1,160 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: 'Red Hat Display', sans-serif;
-    font-size: 62.5%;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 62.5%;
 }
 
 body {
-    font-size: 1.6rem;
-    background-image: url(../imgs/pattern-background-mobile.svg);
+  font-size: 1.6rem;
+  min-height: 100vh;
+  background-image: url(../imgs/pattern-background-mobile.svg);
+  background-size: cover;
 }
 
 :root {
-    --primary-color: #3829e0;
-    --title-color: #1f2f56;
-    --paragraph-color: #7280a7;
-    --secundary-background: #f5f7ff;
+  --primary-color: #3829e0;
+  --title-color: #1f2f56;
+  --paragraph-color: #7280a7;
+  --secundary-background: #f5f7ff;
 }
 
 a {
-    text-decoration: none;
-    color: #000;
-    }
-    
+  text-decoration: none;
+  color: #000;
+}
+
 a:hover {
-        text-decoration: underline;
-    }
+  text-decoration: underline;
+}
 
 .default {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .default-two {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .main-content {
-    display: flex;
-    flex-direction: column;
-    margin: 20px auto;
-    background-color: #fff;
-    width: 90vw;
-    height: 100vh;
-    flex: 1;
-    box-shadow: 1px 1px 1px 1px #00000023;
-    border-radius: 1.0rem 1.0rem 1.0rem 1.0rem;
+  background-color: #fff;
+  width: 90vw;
+  box-shadow: 1px 1px 1px 1px #00000023;
+  border-radius: 1rem 1rem 1rem 1rem;
 }
 
 .hero-img {
-    width: 100%;
-    border-radius: 1.0rem 1.0rem 0rem 0rem;
+  width: 100%;
+  border-radius: 1rem 1rem 0rem 0rem;
 }
 
 .main-title {
-    margin: 1.5rem;
-    text-align: center;
-    font-size: 2.0rem ;
-    font-weight: 900;
-    color: var(--title-color);
+  margin: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--title-color);
 }
 
 .paragraph {
-    text-align: center;
-    color: var(--paragraph-color);
-    line-height: 1.5;
-    margin: 2.0rem;
+  text-align: center;
+  color: var(--paragraph-color);
+  line-height: 1.5;
+  margin: 2rem;
 }
 
 .container-digital-signature {
-    width: 80vw;
-    padding: 0.5rem;
-    margin: 1.0rem auto;
-    border-radius: 1.0rem;
-    font-size: 1.3rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    box-shadow: 1px 1px 1px 1px #00000010;
-    background-color: var(--secundary-background);
+  width: 80vw;
+  padding: 0.5rem;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px #00000010;
+  background-color: var(--secundary-background);
 }
 
 .music-icon {
-    margin: 0.5rem;
-    vertical-align: middle;
+  margin: 0.5rem;
+  vertical-align: middle;
 }
 
 .container-price {
-    flex-direction: column;
-    /* height: max-content; */
-    font-size: 1.2rem;
+  flex-direction: column;
+  font-size: 1.2rem;
 }
 
 .container-price h2:first-of-type {
-    text-align: center;
-    margin-bottom: 0.5rem;
-    font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
 }
 
 .container-price p:first-of-type {
-    color: var(--paragraph-color);
+  color: var(--paragraph-color);
 }
 
 .container-digital-signature div:last-of-type:hover {
-    font-weight: bolder;
-    color: var(--primary-color);
-    text-decoration: underline;
+  font-weight: bolder;
+  color: var(--primary-color);
+  text-decoration: underline;
 }
 
 .container-proceed-to-payment {
-    flex-direction: column;
-    margin-top: 3.0rem;
-    gap: 1.0rem;
+  flex-direction: column;
+  margin-top: 3rem;
+  gap: 1rem;
 }
 
 .container-proceed-to-payment button:first-of-type {
-    background-color: var(--primary-color);
-    color: #fff;
-    font-weight: 900;
-    padding: 1.0rem;
-    width: 80%;
-    border-radius: 1.0rem;
-    border: none;
-    margin: 0.5rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-weight: 900;
+  padding: 1rem;
+  width: 80%;
+  border-radius: 1rem;
+  border: none;
+  margin: 0.5rem;
 }
 
 .container-proceed-to-payment p:last-of-type {
-    color: var(--paragraph-color);
-    font-weight: bolder;
-    margin: 0.5rem;
+  color: var(--paragraph-color);
+  font-weight: bolder;
+  margin: 1.5rem;
+  padding: 1.5rem;
 }
 
 .footer {
-    font-size: 1.2rem;
+  margin: 2.5rem;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 0rem;
 }
 
 @media screen and (min-width: 1024px) {
+  body {
+    background: url(../imgs/pattern-background-desktop.svg);
+    background-size: cover;
+  }
 
-    body {
-        background: url(../imgs/pattern-background-desktop.svg);
-    }
+  .main-content {
+    width: 30vw;
+    height: 90vh;
+  }
 
-    .main-content {
-        width: 30vw;
-        height: 90vh;
-    }
-
-    .container-digital-signature {
-        width: 90%;
-    }
+  .container-digital-signature {
+    width: 90%;
+  }
+  .footer {
+    position: absolute;
+    bottom: -2rem;
+  }
 }
